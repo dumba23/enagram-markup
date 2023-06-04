@@ -4,6 +4,7 @@
 
 .app-main {
     height: 91vh;
+    display:flex
 }
 
 .center-content {
