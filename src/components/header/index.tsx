@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { IconProfile, IconChrome, IconArrowDown } from '../../assets/images'
+import { IconProfile, IconChrome, IconArrowDown } from '../../assets'
 import './style.css'
 
 const Header: React.FC = () => {
@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <div className='header-content'>
             <div className='container-margin-right center-content'>
                 <button className='header-button center-content chrome-button'>
-                    <img src={IconChrome} alt="chrome"/>
+                    <img src={IconChrome} alt="chrome" className='space-x-2'/>
                     <span>Add to Chrome</span>
                 </button>
                 <button className='header-button center-content upgrade-button'>
