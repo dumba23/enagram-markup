@@ -1,0 +1,13 @@
+.app-header {
+    height: 9vh;
+}
+
+.app-main {
+    height: 91vh;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
