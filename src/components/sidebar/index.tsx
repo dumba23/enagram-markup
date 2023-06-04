@@ -1,10 +1,10 @@
 import React from 'react'
 import SidebarButton from '../../feature/ui/SidebarButton'
 
-import { IconSpellchecker, IconMoon, IconSun, IconFacebook, IconQuestion, IconSettings, IconSpeechToText, IconTextToSpeech } from '../../assets/images'
+import { IconSpellchecker, IconMoon, IconSun, IconFacebook, IconQuestion, IconSettings, IconSpeechToText, IconTextToSpeech } from '../../assets'
 import './style.css'
 
-const App: React.FC = () => {
+const Sidebar: React.FC = () => {
   return (
     <div className="sidebar-container">
         <div className="sidebar-top-container">
@@ -29,4 +29,4 @@ const App: React.FC = () => {
   )
 }
 
-export default App
+export default Sidebar
