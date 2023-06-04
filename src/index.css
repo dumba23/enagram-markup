@@ -3,3 +3,21 @@ body {
     padding: 0;
     background-color: #F8F8F8;
 }
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.space-x-2 {
+    margin-right: 0.5rem;
+}
+
+.space-x-4 {
+    margin-right: 1rem;
+}
+
+.space-x-8 {
+    margin-right: 2rem;
+}
