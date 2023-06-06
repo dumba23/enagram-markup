@@ -8,7 +8,11 @@ const Sidebar: React.FC = () => {
   return (
     <div className="sidebar-container">
         <div className="sidebar-top-container">
-            <SidebarButton imageUrl={IconSpellchecker} title="Spellchecker" isActive={true} />
+            <div className="sidebar-active">
+                <b className="sidebar-active-corner-top"/>
+                <b className="sidebar-active-corner-bottom"/>
+                <SidebarButton imageUrl={IconSpellchecker} title="Spellchecker" isActive={true} />
+            </div>
             <SidebarButton imageUrl={IconTextToSpeech} title="Text to speech" />
             <SidebarButton imageUrl={IconSpeechToText} title="Speech to text" />
         </div>
